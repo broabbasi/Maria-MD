@@ -3,24 +3,24 @@ const chalk = require('chalk');
 require('dotenv').config();
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "919931122319"],
-global.ownername = process.env.OWNER_NAME || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.ownernumber = [ process.env.OWNER_NUMBER || "17862927495"],
+global.ownername = process.env.OWNER_NAME || "💙𓆩‎✘King-Abbasi✘𓆪_✰",
 global.ytname = "YT: AyushBotz.inc"
 global.socialm = "GitHub: Ayushpandey023"
 global.location = "Indian"
 
-global.botname = process.env.BOTNAME || "𝐌𝐀𝐑𝐈𝐀-𝐌𝐃",//name of the bot
+global.botname = process.env.BOTNAME || "King-Abbasi",//name of the bot
 
 //sticker details
-global.stickername = process.env.STICKER || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.stickername = process.env.STICKER || "💙𓆩‎✘ABBASI✘𓆪_✰",
 global.packname = 'Sticker By'
-global.author = process.env.AUTHOR || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.author = process.env.AUTHOR || "💙𓆩‎✘ABBASI✘𓆪_✰",
 //console view/theme
 global.themeemoji = '🧩'
 global.wm = "Ayush botz inc."
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I'
+global.link = 'https://whatsapp.com/channel/0029VaFaoAIDzgTDHbcKvD3m'
 
 //custom prefix
 global.prefa = process.env.PREFIX || ".",
@@ -28,12 +28,12 @@ global.prefa = process.env.PREFIX || ".",
 //false=disable and true=enable
 global.welcome = process.env.WELCOME || "false", //auto welcome
 global.autoRecording = false //auto recording
-global.autoTyping = false //auto typing
-global.autorecordtype = false //auto typing + recording
-global.autoread = false //auto read messages
+global.autoTyping = true //auto typing
+global.autorecordtype = true //auto typing + recording
+global.autoread = true //auto read messages
 global.autobio = false //auto update bio
-global.anti212 = true //auto block +212
-global.autoread_status = false //auto view status/story
+global.anti212 = false //auto block +212
+global.autoread_status = true //auto view status/story
 
 
 
